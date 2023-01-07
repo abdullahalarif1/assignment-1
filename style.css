@@ -119,6 +119,7 @@
 .gradient {
   background-image: url("./images/watch.png");
   height: 300px;
+  margin: 100px 0;
 }
 
 .gradient-info {
@@ -198,5 +199,48 @@ img {
   border-radius: 8px;
   color: #f3f3f3;
   border-radius: 5px;
+  
+}
+
+/*---------- My own section--------- */
+.bio-title{
+  text-align: center;
+  padding-bottom: 40px ;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.bio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('./images/gradient1.png');
+  padding: 40px 20px;
+  border-radius: 8px;
+  color: #FFFFFF;
+ 
+  
+}
+
+.bio .bio-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border: 2px solid rgb(132, 127, 176);
+  border-top: 0;
+  border-right: none;
+  box-shadow: 5px 10px 5px #18518f;
+ 
+  
+}
+.bio-description{
+  line-height: 25px;
+}
+.bio-social i{
+  font-size: 20px;
+  padding-right: 10px ;
+  padding-top: 10px;
   
 }
